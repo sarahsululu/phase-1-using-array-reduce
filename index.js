@@ -1,11 +1,2 @@
-// Code your solution here
-const batteryBatches = [
-  { amount: 5},
-  { amount: 10 },
-  { amount: 15},
-  { amount: 1 },
-  
-];
-const totalBatteries = batteryBatches.reduce((total, batch) => {
-  return total + batch.amount;
-}, 0);
+const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
+const totalBatteries = batteryBatches.reduce((total, batch) => total + batch, 0);
